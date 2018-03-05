@@ -17,7 +17,7 @@ public class MealWithExceed {
         this.calories = calories;
         this.exceed = exceed;
     }
-
+//конструктор, что бы было что вывести
     @Override
     public String toString() {
         return "UserMealWithExceed{" +
