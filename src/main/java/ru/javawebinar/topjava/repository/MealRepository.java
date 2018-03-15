@@ -4,7 +4,7 @@ import ru.javawebinar.topjava.model.Meal;
 
 import java.util.Collection;
 
-public interface MealRepository {
+public interface MealRepository {//интерфейс чтения, добавления, удаления, обновления
     Meal save(Meal meal);
 
     void delete(int id);
